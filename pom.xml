@@ -17,11 +17,11 @@
   </properties>
   
 <distributionManagement>
-       </repository>
+  <repository>
           <id>internal.repo</id>
          <name>Internal repo</name>
          <url>file:///var/lib/jenkins/myArtifacts/</url>
-       </repository>
+  </repository>
 </distributionManagement>
 
   <dependencies>
